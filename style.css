@@ -1,0 +1,81 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 20px;
+}
+
+/* align your h1 */
+h1 {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* align your .nav element */
+.nav {
+    margin: 0;
+    padding: 0;
+    background-color: ff5500;
+    padding: 600px;
+    text-align: center;
+  }
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+
+#student-list {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/* style your table border */
+
+
+th, td {
+  text-align: center;
+  padding: 0px 20px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+/* style your image */
+
+#formMain{
+  text-align: center;
+  background-color: darkblue;
+}
+
+#addStudentButton {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#newStudentFormContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkblue;
+}
+
+#newStudentForm {
+  display: none;
+  background-color: #1E3E62;
+  color: white;
+  width: 30%;
+}
